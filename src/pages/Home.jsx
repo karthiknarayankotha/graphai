@@ -1,4 +1,5 @@
 import Hero from '../components/Hero';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -77,12 +78,12 @@ const Home = () => {
           </h2>
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50"
               >
                 Get started
-              </a>
+              </Link>
             </div>
           </div>
         </div>
