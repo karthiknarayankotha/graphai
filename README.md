@@ -94,3 +94,6 @@ To deploy the website to your hosting provider:
 
 For any issues or questions, please contact:
 - Email: info@graphai.ca
+
+<!-- TEST COMMIT: This is a test line added for a test commit. -->
+<!-- TEST COMMIT (2): This is another test line for a new test commit. -->
